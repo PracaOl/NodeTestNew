@@ -5,3 +5,4 @@ http.createServer(function (req, res) {
     res.write('<h1>Hello World!</h2>')
     res.end('adres ip klienta: ' + req.socket.remoteAddress);
 }).listen(8080);
+//Test
